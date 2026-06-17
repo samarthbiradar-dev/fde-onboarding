@@ -6,9 +6,12 @@ This repository tracks projects and exercises completed during the FDE (Field/De
 
 ```
 fde-onboarding/
-├── project-1-folder-stats/     # CLI tool for folder analysis
-├── docs/                       # Onboarding documents & references
-└── README.md
+├── day-1/
+│   ├── project-1-folder-stats/         # CLI tool for folder analysis
+│   └── project-2-plivo-health-checker/ # Plivo account health checker
+├── day-2/
+│   └── project-1-flask-webhook-server/ # Flask server with ngrok webhook testing
+└── FDE Accelerated Onboarding - 2 Week Plan.docx
 ```
 
 ## Onboarding Plan
@@ -17,11 +20,16 @@ See [`FDE Accelerated Onboarding - 2 Week Plan.docx`](./FDE%20Accelerated%20Onbo
 
 ## Projects
 
+### Day 1
 | # | Project | Description | Stack |
 |---|---------|-------------|-------|
-| 1 | [Folder Stats CLI](./project-1-folder-stats/) | CLI tool to analyze folder size, file counts, and type breakdown | Python |
-| 2 | _(coming soon)_ | TBD | TBD |
-| 3 | [Plivo Health Checker](./project-3-plivo-health-checker/) | CLI tool to check Plivo account balance and last 10 messages | Python, Plivo SDK |
+| 1 | [Folder Stats CLI](./day-1/project-1-folder-stats/) | CLI tool to analyze folder size, file counts, and type breakdown | Python |
+| 2 | [Plivo Health Checker](./day-1/project-2-plivo-health-checker/) | Check Plivo account balance and last 10 messages | Python, Plivo SDK |
+
+### Day 2
+| # | Project | Description | Stack |
+|---|---------|-------------|-------|
+| 1 | [Flask Webhook Server](./day-2/project-1-flask-webhook-server/) | Flask server with `/health` and `/webhook-test` endpoints, exposed via ngrok | Python, Flask, ngrok |
 
 ## Getting Started
 
