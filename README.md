@@ -20,6 +20,7 @@ See [`FDE Accelerated Onboarding - 2 Week Plan.docx`](./FDE%20Accelerated%20Onbo
 | # | Project | Description | Stack |
 |---|---------|-------------|-------|
 | 1 | [Folder Stats CLI](./project-1-folder-stats/) | CLI tool to analyze folder size, file counts, and type breakdown | Python |
+| 2 | _(coming soon)_ | TBD | TBD |
 
 ## Getting Started
 
