@@ -31,6 +31,7 @@ See [`FDE Accelerated Onboarding - 2 Week Plan.docx`](./FDE%20Accelerated%20Onbo
 |---|---------|-------------|-------|
 | 1 | [Flask Webhook Server](./day-2/project-1-flask-webhook-server/) | Flask server with `/health` and `/webhook-test` endpoints, exposed via ngrok | Python, Flask, ngrok |
 | 2 | [PostgreSQL Call Log](./day-2/project-2-postgres-calllog/) | REST API to log and retrieve call records backed by PostgreSQL | Python, Flask, SQLAlchemy, PostgreSQL |
+| 3 | [Redis Call Session](./day-2/project-3-redis-session/) | Store call session state in Redis with 30-min auto-expiry TTL | Python, Flask, Redis |
 
 ## Getting Started
 
