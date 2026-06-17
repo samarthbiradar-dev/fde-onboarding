@@ -21,6 +21,7 @@ See [`FDE Accelerated Onboarding - 2 Week Plan.docx`](./FDE%20Accelerated%20Onbo
 |---|---------|-------------|-------|
 | 1 | [Folder Stats CLI](./project-1-folder-stats/) | CLI tool to analyze folder size, file counts, and type breakdown | Python |
 | 2 | _(coming soon)_ | TBD | TBD |
+| 3 | [Plivo Health Checker](./project-3-plivo-health-checker/) | CLI tool to check Plivo account balance and last 10 messages | Python, Plivo SDK |
 
 ## Getting Started
 

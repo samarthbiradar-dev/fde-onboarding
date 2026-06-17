@@ -3,6 +3,9 @@
 .AppleDouble
 .LSOverride
 
+# Environment / secrets
+.env
+
 # Python
 __pycache__/
 *.py[cod]
