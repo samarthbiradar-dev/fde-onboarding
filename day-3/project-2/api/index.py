@@ -37,6 +37,22 @@ def session_key(call_uuid: str) -> str:
 
 # ── Routes ────────────────────────────────────────────────────────────────────
 
+@app.route("/", methods=["GET"])
+def index():
+    return jsonify({
+        "service": "IVR Call Session API",
+        "status":  "running",
+        "endpoints": {
+            "GET  /api/health":                "Redis connectivity check",
+            "POST /api/sessions/start":        "Create a session (30-min TTL)",
+            "GET  /api/sessions/{call_uuid}":  "Get session + remaining TTL",
+            "PUT  /api/sessions/{call_uuid}":  "Update menu choice / depth",
+            "DELETE /api/sessions/{call_uuid}":"End a session",
+            "GET  /api/sessions":              "List all active sessions",
+        },
+    }), 200
+
+
 @app.route("/api/health", methods=["GET"])
 def health():
     try:
