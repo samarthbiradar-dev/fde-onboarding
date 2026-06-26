@@ -1,0 +1,4 @@
+livekit-agents==1.6.4
+livekit-plugins-elevenlabs==1.6.4
+livekit-plugins-groq==1.6.4
+python-dotenv

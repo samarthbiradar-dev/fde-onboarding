@@ -1,0 +1,4 @@
+pipecat-ai[groq,google,silero,local]
+python-dotenv
+groq
+google-genai

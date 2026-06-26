@@ -1,0 +1,7 @@
+pipecat-ai[groq,elevenlabs,silero,websocket]==1.4.0
+fastapi
+uvicorn[standard]
+python-dotenv
+aiohttp
+python-multipart
+asyncpg
